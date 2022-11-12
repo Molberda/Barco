@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* 
@@ -22,11 +25,16 @@ NAV BAR
 
 */
 
-nav
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
+}
 
 .barco__logo--wrapper {
-  margin-top: 32px;
-  width: 240px;
+  width: 180px;
   display: flex;
   overflow: hidden;
   z-index: 1;
