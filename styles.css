@@ -41,10 +41,11 @@ nav{
 }
 
 .barco__logo--wrapper {
-  width: 180px;
   display: flex;
   overflow: hidden;
-  z-index: 1;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 240px;
 }
 
 .barco__logo {
