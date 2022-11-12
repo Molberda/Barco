@@ -107,6 +107,16 @@ LANDING
 
 */
 
+#landing{
+  height: 100vh;
+}
+
+/* 
+
+UBICACION
+
+*/
+
 .mapouter{
   border-radius: 10px;
   overflow: hidden;
