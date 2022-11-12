@@ -78,7 +78,7 @@ nav{
 
 .nav__link--primary{
   font-size: 28px;
-  padding: 4px 16px;
+  padding: 0 12px;
   border: 2px solid white;
   background-color: white;
   border-radius: 10px;
