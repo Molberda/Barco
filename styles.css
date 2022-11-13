@@ -127,9 +127,19 @@ LANDING
   justify-content: space-between;
 }
 
+.landing__organizer{
+  max-width: 590px;
+
+}
+
 .landing__title{
   color: white;
   font-size: 120px;
+}
+
+.landing__text{
+  color: white;
+  font-size: 30px;
 }
 
 .landing__img--wrapper{
