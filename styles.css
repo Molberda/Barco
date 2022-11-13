@@ -30,6 +30,11 @@ body {
   width: 100%;
 }
 
+img{
+  width: 100%;
+  border-radius: inherit;
+}
+
 a{
   color: white;
   font-size: 24px;
@@ -67,10 +72,6 @@ nav{
   border: 1px solid white;
   border-radius: 10px;
   width: 240px;
-}
-
-.barco__logo {
-  width: 100%;
 }
 
 .nav__link--list{
@@ -117,6 +118,15 @@ LANDING
 
 #landing{
   height: 100vh;
+}
+
+.landing__img--wrapper{
+  display: flex;
+  margin: 80px 0 ;
+  width: 450px;
+  padding: 12px;
+  border: 3px solid white;
+  border-radius: 20px;
 }
 
 /* 
