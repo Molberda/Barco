@@ -19,11 +19,13 @@ body {
 .row {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  height: 100%;
+  gap: 90px;
 }
 
 .container{
@@ -118,6 +120,16 @@ LANDING
 
 #landing{
   height: 100vh;
+}
+
+.landing__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing__title{
+  color: white;
+  font-size: 120px;
 }
 
 .landing__img--wrapper{
