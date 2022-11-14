@@ -125,6 +125,7 @@ LANDING
 .landing__container {
   display: flex;
   justify-content: space-between;
+  max-height: 620px;
 }
 
 .landing__organizer {
@@ -151,8 +152,54 @@ LANDING
 .typing__wrapper{
   display: flex;
   color: white;
-  font-size: 45px;
+  gap: 10px;
+}
+
+.static__text{
+  margin-top: 2px;
+}
+
+.dynamic__texts{
+  font-size: 48px;
   font-weight: bold;
+  color: red;
+  line-height: 72px;
+  height: 72px;
+  overflow: hidden;
+}
+
+.dynamic__texts li{
+  animation: slide 12s steps(4) infinite;
+  position: relative;
+  top: 0;
+}
+
+@keyframes slide {
+  100%{
+    top: -288px;
+  }
+}
+
+.typing__text{
+  position: relative;
+}
+
+.typing__text::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid red;
+  left: 0;
+  animation: typing 3s steps(15) infinite;
+  background-color: #020621;
+}
+
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
 }
 
 .landing__img--wrapper {
