@@ -66,6 +66,16 @@ nav {
   align-items: center;
   width: 100%;
   margin-top: 12px;
+  animation: slideIn 1000ms ;
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateX(-4000px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
 }
 
 .barco__logo--wrapper {
