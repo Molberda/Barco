@@ -264,6 +264,16 @@ LANDING
   height: 8px;
   background-color: white;
   border-radius: 8px;
+  animation: scroll 2s infinite alternate-reverse;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
 }
 
 /* 
