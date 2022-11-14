@@ -210,15 +210,15 @@ LANDING
   border: 5px solid white;
   border-radius: 20px;
   box-shadow: 0 0 26px 0 white;
-  animation: float 1s infinite alternate-reverse;
+  animation:  rot 2500ms infinite alternate-reverse;
 }
 
-@keyframes float {
-  0% {
-    transform: translateY(0);
+@keyframes rot {
+  0%{
+    transform: rotate(-1deg);
   }
-  100% {
-    transform: translateY(8px);
+  100%{
+    transform: rotate(1deg);
   }
 }
 
