@@ -130,6 +130,7 @@ LANDING
 
 #landing {
   height: 100vh;
+  position: relative;
 }
 
 .landing__container {
@@ -241,6 +242,28 @@ LANDING
   100%{
     transform: rotate(1deg);
   }
+}
+
+.scroll__icon{
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 44px;
+  width: 24px;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .3;
+}
+
+.scroll__dot{
+  width: 4px;
+  height: 8px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 /* 
