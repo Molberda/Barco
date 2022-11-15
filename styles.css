@@ -170,6 +170,8 @@ LANDING
   color: white;
   font-size: 45px;
   font-weight: 400;
+  text-align: justify;
+  max-width: 85%;
 }
 
 .typing__wrapper{
@@ -289,6 +291,7 @@ ACERCA
 
 .acerca__row{
   max-width: 1400px;
+  justify-content: center;
 }
 
 .acerca__container{
@@ -312,7 +315,11 @@ ACERCA
 }
 
 .acerca__text{
+  font-size: 30px;
   color: white;
+  text-align: justify;
+  max-width: 85%;
+  margin: 0 0 0 42px
 }
 
 /* 
