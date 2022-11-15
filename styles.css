@@ -54,6 +54,11 @@ a {
   scale: 0.9;
 }
 
+.title {
+  color: white;
+  font-size: 120px;
+}
+
 /* 
 
 NAV BAR
@@ -154,10 +159,6 @@ LANDING
   max-width: 590px;
 }
 
-.landing__title {
-  color: white;
-  font-size: 120px;
-}
 
 .landing__description--container {
   display: flex;
