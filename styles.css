@@ -60,6 +60,12 @@ a {
   font-size: 120px;
 }
 
+.text{
+  font-size: 30px;
+  color: white;
+  text-align: justify;
+}
+
 /* 
 
 NAV BAR
@@ -315,12 +321,10 @@ ACERCA
 }
 
 .acerca__text{
-  font-size: 30px;
-  color: white;
-  text-align: justify;
+  margin: 0 0 0 42px;
   max-width: 85%;
-  margin: 0 0 0 42px
 }
+
 
 /* 
 
