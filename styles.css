@@ -60,7 +60,7 @@ a {
   font-size: 120px;
 }
 
-.text{
+.text {
   font-size: 30px;
   color: white;
   text-align: justify;
@@ -78,14 +78,14 @@ nav {
   align-items: center;
   width: 100%;
   margin-top: 12px;
-  animation: slideIn 1000ms ;
+  animation: slideIn 1000ms;
 }
 
 @keyframes slideIn {
-  0%{
+  0% {
     transform: translateX(-4000px);
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
@@ -148,23 +148,21 @@ LANDING
 .landing__container {
   justify-content: space-between;
   max-height: 620px;
-  animation: slideInR 1000ms ;
+  animation: slideInR 1000ms;
 }
 
 @keyframes slideInR {
-  0%{
+  0% {
     transform: translateX(4000px);
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
 
-
 .landing__organizer {
   max-width: 590px;
 }
-
 
 .landing__description--container {
   display: flex;
@@ -180,17 +178,17 @@ LANDING
   max-width: 85%;
 }
 
-.typing__wrapper{
+.typing__wrapper {
   display: flex;
   color: white;
   gap: 10px;
 }
 
-.static__text{
+.static__text {
   margin-top: 2px;
 }
 
-.dynamic__texts{
+.dynamic__texts {
   font-size: 48px;
   font-weight: bold;
   color: red;
@@ -199,23 +197,23 @@ LANDING
   overflow: hidden;
 }
 
-.dynamic__texts li{
+.dynamic__texts li {
   animation: slide 12s steps(4) 1s infinite;
   position: relative;
   top: 0;
 }
 
 @keyframes slide {
-  100%{
+  100% {
     top: -288px;
   }
 }
 
-.typing__text{
+.typing__text {
   position: relative;
 }
 
-.typing__text::after{
+.typing__text::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -227,7 +225,7 @@ LANDING
 }
 
 @keyframes typing {
-  100%{
+  100% {
     left: 100%;
     margin: 0 -35px 0 35px;
   }
@@ -241,19 +239,19 @@ LANDING
   border: 5px solid white;
   border-radius: 20px;
   box-shadow: 0 0 26px 0 white;
-  animation:  rot 2500ms infinite alternate-reverse;
+  animation: rot 2500ms infinite alternate-reverse;
 }
 
 @keyframes rot {
-  0%{
+  0% {
     transform: rotate(-1deg);
   }
-  100%{
+  100% {
     transform: rotate(1deg);
   }
 }
 
-.scroll__icon{
+.scroll__icon {
   position: absolute;
   border: 3px solid white;
   border-radius: 20px;
@@ -265,10 +263,10 @@ LANDING
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: .3;
+  opacity: 0.3;
 }
 
-.scroll__dot{
+.scroll__dot {
   width: 4px;
   height: 8px;
   background-color: white;
@@ -277,10 +275,10 @@ LANDING
 }
 
 @keyframes scroll {
-  0%{
+  0% {
     transform: translateY(-10px);
   }
-  100%{
+  100% {
     transform: translateY(10px);
   }
 }
@@ -291,20 +289,20 @@ ACERCA
 
 */
 
-#acerca{
+#acerca {
   height: 100vh;
 }
 
-.acerca__row{
+.acerca__row {
   max-width: 1400px;
   justify-content: center;
 }
 
-.acerca__container{
+.acerca__container {
   justify-content: space-between;
 }
 
-.acerca__img--wrapper{
+.acerca__img--wrapper {
   display: flex;
   max-width: 450px;
   border: 5px solid white;
@@ -312,19 +310,18 @@ ACERCA
   box-shadow: 0 0 26px 0 white;
 }
 
-.acerca__organizer{
+.acerca__organizer {
   max-width: 850px;
 }
 
-.acerca__title{
+.acerca__title {
   font-size: 110px;
 }
 
-.acerca__text{
+.acerca__text {
   margin: 0 0 0 42px;
   max-width: 85%;
 }
-
 
 /* 
 
@@ -332,15 +329,15 @@ CONTACTANOS
 
 */
 
-#contactanos{
+#contactanos {
   height: 100vh;
 }
 
-.ubicacion__row{
+.ubicacion__row {
   justify-content: center;
 }
 
-.ubicacion__container{
+.ubicacion__container {
   justify-content: space-between;
 }
 
@@ -349,13 +346,13 @@ CONTACTANOS
   overflow: hidden;
 }
 
-.insta__link{
+.insta__link {
   background: linear-gradient(to right, #4856f2, #d62976);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 300ms ease;
 }
 
-.insta__link:hover{
+.insta__link:hover {
   font-size: 34px;
 }
