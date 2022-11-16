@@ -291,6 +291,7 @@ ACERCA
 
 #acerca {
   height: 100vh;
+  position: relative;
 }
 
 .acerca__row {
