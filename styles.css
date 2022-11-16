@@ -332,6 +332,10 @@ CONTACTANOS
 
 */
 
+.ubicacion__container{
+  justify-content: space-between;
+}
+
 .mapouter {
   border-radius: 10px;
   overflow: hidden;
