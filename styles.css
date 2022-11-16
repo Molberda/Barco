@@ -328,11 +328,22 @@ ACERCA
 
 /* 
 
-UBICACION
+CONTACTANOS
 
 */
 
 .mapouter {
   border-radius: 10px;
   overflow: hidden;
+}
+
+.insta__link{
+  background: linear-gradient(to right, #4856f2, #d62976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 300ms ease;
+}
+
+.insta__link:hover{
+  font-size: 34px;
 }
