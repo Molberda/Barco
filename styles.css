@@ -332,6 +332,14 @@ CONTACTANOS
 
 */
 
+#contactanos{
+  height: 100vh;
+}
+
+.ubicacion__row{
+  justify-content: center;
+}
+
 .ubicacion__container{
   justify-content: space-between;
 }
